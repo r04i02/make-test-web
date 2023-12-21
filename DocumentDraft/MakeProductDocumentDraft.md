@@ -1,5 +1,31 @@
 # HTML
 
+# TASK
+
+- 定型文のところ
+- 
+
+## 定型文
+
+```html
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ログイン</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+### 解説(<>は省略)
+
+- !DOCTYPE：HTMLの標準仕様に準拠したページを表示させる標準モードにするために必要。
+- html：DOCTYPE宣言の後は必ずこれを記す必要がある。
+
 ## 見だしタグ
 
 ###  記法
@@ -40,7 +66,7 @@
 ```
 
 ### 参考画像
-![参考](midasi.png)
+![参考](png/midasi.png)
 
 ## 改行タグ
 
@@ -62,7 +88,7 @@
 
 ### 参考画像
 
-![参考](br.png)
+![参考](png/br.png)
 
 ## 段落(paragraph)タグ
 
@@ -87,7 +113,7 @@
 
 ### 参考画像
 
-![参考](p.png)
+![参考](png/p.png)
 
 ## input要素
 
@@ -105,4 +131,74 @@
 
 ### 参考画像
 
-![参考](input.png)
+![参考](png/input.png)
+
+### inputのtype属性
+
+#### 属性値
+
+- email：メールアドレスの入力のみ許可します
+- password：入力された内容を●で隠す
+
+### name属性
+
+- 入力フォームに名前を付ける。JSやWeb鯖との連携で利用される。
+- 属性値は自由に決められそう
+
+### value属性
+
+- すでにあらかじめ例として入力された状態のフォームができる。
+- 当然自由に設定できそう
+
+## button要素
+
+### 記法
+
+```html
+<button type="ボタンタイプ">ラベル</button>
+```
+
+### 使用例
+
+```html
+<p><button type="submit">登録する</button></p>
+```
+
+### 参考画像
+
+![参考](png/button.png)
+
+### buttonのtype属性
+
+#### 属性値
+
+- submit：送信ボタン。これを押すとフォーム送信される。
+- reset：入力した内容をクリアする。
+- button JSと組み合わせて利用。
+
+
+
+
+
+
+
+
+
+
+## 
+
+### 記法
+
+```html
+
+```
+
+### 使用例
+
+```html
+
+```
+
+### 参考画像
+
+![参考](.png)
